@@ -22,12 +22,6 @@
       "*"
     ]
   },
-  "storage": {
-    "type": "memory"
-  },
-  "scheduler": {
-    "type": "memory"
-  },
   "num_history_sessions": 5,
   "environment_variables": [
     {
@@ -38,11 +32,6 @@
     {
       "key": "MEM0_API_KEY",
       "description": "Mem0 API key for memory operations",
-      "required": true
-    },
-    {
-      "key": "EXA_API_KEY",
-      "description": "Exa API key for search",
       "required": true
     }
   ]
